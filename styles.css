@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Header*/
+
+.fondo-header2 {
+  background-color: #f0623e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.primer-div-caja2 {
+  margin: 19px 0 20px 40px;
+
+}
+.span1 {
+  color: #411342;
+  font-weight: bold;
+  font-size: 20px;
+}
+.span2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-caja2{
+  margin: 23px 40px 24px 0;
+}
+.segunda-lista {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 15px;
+  color: #ffffff;
+}
+.margen2 {
+  margin-right: 20px;
+}
+
+
+
+/*Section1*/
+
+.section-fondo {
+  align-items: flex-end;
+  background-image: url('img/1366_2000.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 98.7.8vw;
+}
+
+/*Main*/
+
+.section-1-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div1-main {
+  margin-top: 20px;
+}
+.h1-1-main {
+  color: #3C2313;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.span-main {
+  margin: 0 15px 0 0;
+}
+
+.computer {
+    height: 80px;
+}
+
+/*Section2*/
+
+.contenedor-section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 95px;
+}
+.div1-contenedor {
+  align-items: center;
+  background-image: url("../img/teclado.jpeg");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  height: 412px;
+  justify-content: flex-end;
+  margin: 0 20px 0 0;
+  width: 365px;
+}
+.div2-contenedor {
+  align-items: center;
+  background-image: url("../img/auris.jpg");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  height: 412px;
+  justify-content: flex-end;
+  margin: 0 20px 0 0;
+  width: 365px;
+}
+.span-divs-contenedor {
+  color: #3C2313;
+  font-weight: bold;
+}
+.span2-divs-contenedor {
+  color: #f0623e;
+}
+
+/*Footer*/
+
+.section-1-footer {
+  align-items: center;
+  background-color: #f0623e;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between;
+}
+.div1-footer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  justify-content: center;
+}
