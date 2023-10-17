@@ -242,6 +242,15 @@
   margin-bottom: 45px;
 }
 
+.div3-contenedor, .div1-contenedor, .div2-contenedor{
+  justify-content: space-around;
+}
+
+.img{
+  height:200px;
+  width: 220px;
+}
+
 /*footer*/
 .section-1-footer {
   align-items: center;
