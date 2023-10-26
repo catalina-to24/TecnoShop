@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+:root {
+  --dark-0: #495057;
+  --dark-1: #343a40;
+  --dark-2: #212529;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,28 +17,66 @@
 /*Header*/
 /*div caja1*/
 .fondo-header1 {
-  background-color: #222222;
+  background-color: #212529;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-content: space-between;
+  height: 50px;
 }
 .primer-div {
-  font-size: 10px;
-  margin: 4px 0 4px 90px;
+  font-size: 15px;
+  margin: 10px 0 10px 90px;
 }
-.segundo-div{
-  margin: 4px 60px 4px 0;
-}
-.primera-lista {
-  display: flex;
-  font-size: 10px;
+
+.switch{
   list-style: none;
+  width: 60px;
+  height: 30px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 100px;
+  border: #333 solid 2px;
+  margin: 10px;
+  background-color: #ffffff;
 }
-.margen {
-  margin: 0 10px 0 0;
+
+.switch i{
+  font-size: 1rem;
+  color: #f0623e;
 }
+
+.temaOscuro li:last-child::before{
+  content:"";
+  position: absolute;
+  height: 20px;
+  width:20px;
+  border-radius: 50%;
+  background-color: black;
+  border: solid thin #ffffff;
+  left:0;
+  right: unset;
+
+}
+
+.temaOscuro li:last-child.active::before{
+  right: 0;
+  left: unset;
+  border: solid thin #121212;
+}
+
+.temaOscuro li:last-child.active i:first-child{
+  color: #ffffff;
+}
+.temaOscuro li:last-child.active {
+  background-color: chocolate;
+  border: solid 2px ;
+}
+
 /*div caja 2*/
 .fondo-header2 {
   background-color: #f0623e;
@@ -207,14 +252,15 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  background-color: #3C2313;
   border-radius: 20px;
-  color: #ffffff;
+  color: black;
   font-size: 13px;
   padding:  10px 10px;
 }
+
+
 .input1{ 
-  background-color: #3C2313;
+  background-color: #f0623e;
   border-radius: 20px;
   color: #ffffff;
   font-size: 13px;
@@ -249,7 +295,7 @@
 }
 
 #texto{
-  background-color: #3C2313;
+  background-color: #f0623e;
   color: #ffffff;
 }
 
@@ -454,4 +500,66 @@
 .div2-section2 {
   margin: 0px 0px 10px 0;
 }
+}
+
+
+/*------MODO OSCURO ------*/
+
+body.active  .fondo-header2{
+  background-color: black; 
+  color: #ffffff; 
+}
+
+body.active .contenedor-div2{
+  background-color: black; 
+  color: #ffffff; 
+}
+
+body.active .fondo-header1 {
+  background-color: #ffffff; 
+  color: black;
+}
+
+body.active .section3-footer {
+  background-color: #ffffff; 
+  color: black;
+}
+
+body.active .span1{
+  color: #f0623e;
+}
+
+body.active main{
+  background-color: black;
+  color: #ffffff;
+}
+
+body.active .h1-1-main{
+  color: #ffffff;
+}
+
+
+body.active .div2-ultimo-div{
+  background-color: #8A8787;
+}
+
+body.active .h2-contenedor-section2{
+  color: #ffffff;
+}
+
+body.active .span-divs-contenedor{
+  color: #ffffff;
+}
+
+body.active .section-1-footer{
+  background-color: black; 
+  color: #ffffff; 
+}
+
+body.active .section2-principal{
+  background-color: #121212;
+}
+
+body.active .section-fondo{
+  background-image: url('./img/modoOscuro.avif');
 }

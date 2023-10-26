@@ -21,3 +21,12 @@ function validarFormulario() {
   document.getElementById("formularioPrincipal").reset();
   
 }
+
+//-----MODO OSCURO------
+
+const modo = document.querySelector(".switch");
+
+modo.addEventListener("click", e =>{
+  modo.classList.toggle("active");
+  document.body.classList.toggle("active");
+})
