@@ -505,61 +505,60 @@
 
 /*------MODO OSCURO ------*/
 
-body.active  .fondo-header2{
+body.oscuro  .fondo-header2{
   background-color: black; 
   color: #ffffff; 
 }
 
-body.active .contenedor-div2{
-  background-color: black; 
-  color: #ffffff; 
+body.oscuro .contenedor-div2{
+  background-color: white; 
 }
 
-body.active .fondo-header1 {
+body.oscuro .fondo-header1 {
   background-color: #ffffff; 
   color: black;
 }
 
-body.active .section3-footer {
+body.oscuro .section3-footer {
   background-color: #ffffff; 
   color: black;
 }
 
-body.active .span1{
+body.oscuro .span1{
   color: #f0623e;
 }
 
-body.active main{
+body.oscuro main{
   background-color: black;
   color: #ffffff;
 }
 
-body.active .h1-1-main{
+body.oscuro .h1-1-main{
   color: #ffffff;
 }
 
 
-body.active .div2-ultimo-div{
+body.oscuro .div2-ultimo-div{
   background-color: #8A8787;
 }
 
-body.active .h2-contenedor-section2{
+body.oscuro .h2-contenedor-section2{
   color: #ffffff;
 }
 
-body.active .span-divs-contenedor{
+body.oscuro .span-divs-contenedor{
   color: #ffffff;
 }
 
-body.active .section-1-footer{
+body.oscuro .section-1-footer{
   background-color: black; 
   color: #ffffff; 
 }
 
-body.active .section2-principal{
+body.oscuro .section2-principal{
   background-color: #121212;
 }
 
-body.active .section-fondo{
+body.oscuro .section-fondo{
   background-image: url('./img/modoOscuro.avif');
 }
